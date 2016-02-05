@@ -5,7 +5,7 @@ ENV HOME /root
 
 CMD ["/sbin/my_init"]
 
-RUN npm install -g nodemon autoreload express-generator webpack
+RUN npm install -g nodemon autoreload
 RUN mkdir -p /etc/service/app
 ADD npmStart /etc/service/app/run
 
