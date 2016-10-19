@@ -1,6 +1,5 @@
 #!/bin/sh
 set -e
 
-export PORT=80
-cd /opt
-npm start
+cd /opt/app
+./start.sh
